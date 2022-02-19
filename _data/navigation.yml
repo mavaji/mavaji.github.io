@@ -1,0 +1,11 @@
+main:
+- title: "تعلیم خط"
+  url: /calligraphy/
+- title: "Publications"
+  url: /publications/
+- title: "Translations"
+  url: /translations/
+- title: "Tags"
+  url: /tags/
+- title: "Categories"
+  url: /categories/

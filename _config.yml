@@ -1,0 +1,99 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: VAHID MAVAJI
+title_separator: "|"
+name: "وحید مواجی | VAHID MAVAJI"
+subtitle: "وحید مواجی"
+logo: "/assets/images/bio-photo.jpg"
+
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal Website of Vahid Mavaji | سایت شخصی وحید مواجی
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mavaji"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/mavaji"
+    - label: "Goodreads"
+      icon: "fab fa-fw fa-goodreads"
+      url: "https://goodreads.com/mavaji"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mavaji@me.com"
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+search: true
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+words_per_minute: 200
+show_date: true
+date_format: "%d %b %Y" # https://www.shortcutfoo.com/app/dojos/ruby-date-format-strftime/cheatsheet
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      show_date: true
+      read_time: true
+      comments: false
+      author_profile: false
+      share: true
+      related: true
+#      classes: wide
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

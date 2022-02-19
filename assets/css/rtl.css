@@ -1,0 +1,18 @@
+.page__content p,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6,
+.page__content ul,
+.page__content li,
+.page__content table,
+.page__title,
+.footnotes {
+    direction: rtl;
+}
+
+.page__inner-wrap .page__meta {
+    text-align: right;
+}
