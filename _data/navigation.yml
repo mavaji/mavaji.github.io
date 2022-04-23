@@ -1,4 +1,6 @@
 main:
+#- title: "Journal"
+#  url: /journal/
 - title: "تعلیم خط"
   url: /calligraphy/
 - title: "Publications"
@@ -7,5 +9,5 @@ main:
   url: /translations/
 - title: "Tags"
   url: /tags/
-- title: "Categories"
-  url: /categories/
+#- title: "Categories"
+#  url: /categories/
