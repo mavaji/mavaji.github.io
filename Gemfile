@@ -37,3 +37,4 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 gem "kramdown-parser-gfm"
 
 gem "jekyll-include-cache", group: :jekyll_plugins
+gem "webrick", "~> 1.7"
