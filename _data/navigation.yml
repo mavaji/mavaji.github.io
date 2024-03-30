@@ -5,5 +5,7 @@ main:
   url: /publications/
 - title: "Translations"
   url: /translations/
+- title: "Cinema"
+  url: /cinema/
 - title: "Tags"
   url: /tags/
