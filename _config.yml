@@ -26,18 +26,18 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 footer:
   links:
-    - label: "GitHub"
+    - label: ""
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mavaji"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/mavaji"
-    - label: "Goodreads"
+    - label: ""
+      icon: "fab fa-fw fa-square-x-twitter"
+      url: "https://x.com/mavajiv"
+    - label: ""
+      icon: "fab fa-fw fa-imdb"
+      url: "https://www.imdb.com/user/ur75410239"
+    - label: ""
       icon: "fab fa-fw fa-goodreads"
       url: "https://goodreads.com/mavaji"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:mavaji@me.com"
 
 # Build settings
 markdown: kramdown
