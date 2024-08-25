@@ -13,6 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+# "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default"
+
 title: VAHID MAVAJI
 title_separator: "|"
 name: "وحید مواجی | VAHID MAVAJI"
@@ -43,15 +47,14 @@ footer:
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
-  - jekyll-feed
   - jekyll-include-cache
 
 search: true
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 words_per_minute: 200
 show_date: true
-date_format: "%d %b %Y" # https://www.shortcutfoo.com/app/dojos/ruby-date-format-strftime/cheatsheet
+date_format: "%d %B %Y" # https://www.shortcutfoo.com/app/dojos/ruby-date-format-strftime/cheatsheet
 
 defaults:
   # _posts
@@ -61,13 +64,11 @@ defaults:
     values:
       layout: single
       show_date: true
-      read_time: true
+      read_time: false
       comments: false
       author_profile: false
-      share: true
+      share: false
       related: true
-#      classes: wide
-
   # _pages
   - scope:
       path: ""
@@ -86,14 +87,7 @@ tag_archive:
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+timezone: Australia/Melbourne
+
+atom_feed:
+  hide: true
