@@ -1,11 +1,11 @@
 main:
-- title: "Calligraphy"
-  url: /calligraphy/
-- title: "Publications"
-  url: /publications/
-- title: "Translations"
-  url: /translations/
 - title: "Cinema"
   url: /cinema/
+- title: "Calligraphy"
+  url: /calligraphy/
+- title: "Translations"
+  url: /translations/
+- title: "Publications"
+  url: /publications/
 - title: "Tags"
   url: /tags/
