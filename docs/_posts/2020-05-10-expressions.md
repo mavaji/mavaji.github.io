@@ -2,6 +2,7 @@
 last_modified_at: 2022-02-06
 layout: single
 title: "English expressions"
+published: false
 ---
 Some everyday English expressions and idioms which I heard in my everyday working life and noted them down.
 
